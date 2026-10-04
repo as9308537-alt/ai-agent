@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AI Auto Agent</string>
+    <string name="accessibility_desc">AI Agent jo tasks ko automate karta hai aur error aane par aawaz dekar batata hai.</string>
+</resources>

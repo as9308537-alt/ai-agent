@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI Automation Agent"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Accessibility Service enable karein.\n2. Agent screen dekh kar task repeat karega.\n3. Kisi error par aawaz dekar aapse madad maangega."
+        android:textSize="15sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnEnableService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Accessibility Permission" />
+
+    <Button
+        android:id="@+id/btnStartTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Start Trained Task" />
+
+</LinearLayout>
